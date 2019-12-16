@@ -17,3 +17,78 @@
 16-12-2019 | 21:7:37 TELEGRAM BOT ЗАПУЩЕН УСПЕШНО
 16-12-2019 | 21:8:28 TELEGRAM BOT ЗАПУЩЕН УСПЕШНО
 16-12-2019 | 21:10:9 TELEGRAM BOT ЗАПУЩЕН УСПЕШНО
+16-12-2019 | 21:30:21 TELEGRAM BOT ЗАПУЩЕН УСПЕШНО
+16-12-2019 | 21:58:50 TELEGRAM BOT ЗАПУЩЕН УСПЕШНО
+16-12-2019 | 21:59:1 Подключение к Базе Данных Прошло Успешно
+16-12-2019 | 21:59:4 TELEGRAM BOT ЗАПУЩЕН УСПЕШНО
+16-12-2019 | 22:0:29 Подключение к Базе Данных Прошло Успешно
+16-12-2019 | 22:0:32 Telegram Бот Запущен Успешно
+16-12-2019 | 22:0:43 Подключение к Базе Данных Прошло Успешно
+16-12-2019 | 22:0:45 Telegram Бот Запущен Успешно
+16-12-2019 | 22:1:21 Подключение к Базе Данных Прошло Успешно
+16-12-2019 | 22:1:23 Telegram Бот Запущен Успешно
+16-12-2019 | 22:1:25 13
+16-12-2019 | 22:1:48 ...................
+16-12-2019 | 22:3:17 Подключение к Базе Данных Прошло Успешно
+16-12-2019 | 22:3:19 Telegram Бот Запущен Успешно
+16-12-2019 | 22:3:23 @undefined: ................
+16-12-2019 | 22:3:45 Подключение к Базе Данных Прошло Успешно
+16-12-2019 | 22:3:47 Telegram Бот Запущен Успешно
+16-12-2019 | 22:3:50 @jesusgvn: ........................
+16-12-2019 | 22:4:0 @jesusgvn: asd
+16-12-2019 | 22:4:6 @jesusgvn: /start
+16-12-2019 | 22:4:15 @jesusgvn: ———————
+16-12-2019 | 22:4:16 @jesusgvn: =============
+16-12-2019 | 22:4:17 @jesusgvn: ———————
+16-12-2019 | 22:4:18 @jesusgvn: ——————
+16-12-2019 | 22:4:20 @jesusgvn: —————————————————————————-
+16-12-2019 | 22:4:25 @jesusgvn: dfgdfg
+16-12-2019 | 22:4:25 @jesusgvn: fasdfsdf
+16-12-2019 | 22:4:27 @jesusgvn: dfgdfg
+16-12-2019 | 22:4:28 @jesusgvn: sdfg
+16-12-2019 | 22:4:29 @jesusgvn: sdafds
+16-12-2019 | 22:4:30 @jesusgvn: 123123
+16-12-2019 | 22:4:31 @jesusgvn: 524352
+16-12-2019 | 22:4:32 @jesusgvn: 2341234
+16-12-2019 | 22:4:33 @jesusgvn: 1234
+16-12-2019 | 22:4:33 @jesusgvn: 34
+16-12-2019 | 22:4:34 @jesusgvn: 65
+16-12-2019 | 22:4:34 @jesusgvn: 54
+16-12-2019 | 22:4:34 @jesusgvn: 2
+16-12-2019 | 22:4:35 @jesusgvn: 34
+16-12-2019 | 22:4:35 @jesusgvn: 5
+16-12-2019 | 22:4:35 @jesusgvn: 5
+16-12-2019 | 22:4:36 @jesusgvn: 4
+16-12-2019 | 22:4:36 @jesusgvn: 4
+16-12-2019 | 22:4:37 @jesusgvn: 4
+16-12-2019 | 22:4:37 @jesusgvn: 4
+16-12-2019 | 22:4:38 @jesusgvn: 4
+16-12-2019 | 22:4:38 @jesusgvn: 4
+16-12-2019 | 22:4:38 @jesusgvn: 4
+16-12-2019 | 22:4:38 @jesusgvn: 4
+16-12-2019 | 22:4:38 @jesusgvn: 4
+16-12-2019 | 22:4:39 @jesusgvn: 4
+16-12-2019 | 22:4:39 @jesusgvn: 4
+16-12-2019 | 22:4:39 @jesusgvn: 4
+16-12-2019 | 22:4:39 @jesusgvn: 4
+16-12-2019 | 22:4:41 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:42 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:43 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:44 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:45 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:45 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:46 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:46 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:47 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:47 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:48 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:48 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:49 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:49 @jesusgvn: global.functions        = require('../class/functions');
+16-12-2019 | 22:4:55 @jesusgvn: asd\n
+16-12-2019 | 22:4:59 @jesusgvn: dfg
+16-12-2019 | 22:5:4 @jesusgvn: asdasdasd\nasdasd
+16-12-2019 | 22:5:13 @jesusgvn: sdfsdfsd \n asdasds
+16-12-2019 | 22:5:56 Подключение к Базе Данных Прошло Успешно
+16-12-2019 | 22:5:58 Telegram Бот Запущен Успешно
+16-12-2019 | 22:6:7 @jesusgvn: asdas

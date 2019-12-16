@@ -19,7 +19,7 @@ module.exports.init = function(){
 
 
       // console.log('TELEGRAM БОТ ПОДКЛЮЧЕН УСПЕШНО');
-      logger.doneLog('TELEGRAM BOT ЗАПУЩЕН УСПЕШНО');
+      logger.doneLog('Telegram Бот Запущен Успешно');
 
-    }, 3000);
+    }, 2000);
 }
