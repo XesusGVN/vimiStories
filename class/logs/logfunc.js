@@ -24,6 +24,13 @@ var doneLog = function(text){
 
 var errorLog = function(text,data){
 
+    let time = func.getDateTime();
+    let txt = time + data.from.username+"("+ data.from.id +")"+ " TEXT: " +text;
+
+    let fileContent = fs.readFileSync('./logs/errorLogs.txt', 'utf8');
+    fs.writeFileSync("./logs/errorLogs.txt", fileContent + "\n" + txt);
+    console.log('\x1b[41m\x1b[37m' + time + '\x1b[0m  \x1b[41m ' + '\x1b[37m' + data.from.username+"("+ data.from.id +")" +" TEXT: "+ text + '\x1b[0m');
+
 }
 
 
