@@ -1,5 +1,5 @@
 const USER      =  require('../../user/user');
-const waitSync  = require('wait-sync');
+const botFunc   =  require('../Functions/functions');
 
 module.exports.onMessage = function(){
     const logger = require('../../logs/logfunc');
@@ -43,8 +43,13 @@ module.exports.onMessage = function(){
 
                         if(setContact){
                             // Вызов Главного Меню
-                            USER.setAction(id,'DEFAULT');
+                            USER.setAction(id,'DEFAULT');  
+                            
+                            var info = USER.getInfo(id);
+                            logger.regLog(info)
+                            
                             bot.sendMessage(id, "<b>✅Вы успешно Зарегистрировались</b>", {parse_mode: 'html'});
+                            botFunc.getMainMenu(id);
                         }
                     }else{
                         bot.sendMessage(id,"<b>❌Ошибка: Укажите в настройках аккаунта Telegram номер мобильного телефона</b>", {parse_mode: 'html'});
@@ -63,6 +68,8 @@ module.exports.onMessage = function(){
                         };
                         bot.sendMessage(id, "<b>Ничего писать не нужно</b>, <i>просто нажмите кнопку </i> <b>🔰Отправить Контакт</b>", options);
                 }
+            }else if(text == '/start'){
+                botFunc.getMainMenu(id);
             }
         }else{
             if(text == '/start'){

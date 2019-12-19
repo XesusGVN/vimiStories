@@ -1,4 +1,5 @@
 const waitSync  = require('wait-sync');
+const func      = require('../functions');
 
 var haveUser = function(id){
        var status = 0;
@@ -20,7 +21,8 @@ var regUser = function(data){
     var USER = {
         TG_ID: data.id,
         USER_NAME: data.username,
-        USER_ACTION: 'GET_NAME'
+        USER_ACTION: 'GET_NAME',
+        REG_DATE: func.getDateTime()
     }
     var status = 0;
 
@@ -37,6 +39,7 @@ var regUser = function(data){
         }
     }
 }
+
 
 var userAction = function(id){
     var action = null;
@@ -99,10 +102,28 @@ var setContact = function(data){
 }
 
 
+var getInfo = function(id){
+    var callback;
+    var req = global.connection.query('SELECT * FROM users WHERE TG_ID = ?',id,function(err,res){
+        if(err) throw err;
+        else{
+            if(res.length > 0){
+                callback = res[0];
+            }
+        }
+    });
+    waitSync(0.1);
+    if(req){
+        return callback;
+    }
+}
 
-module.exports.haveUser = haveUser;
-module.exports.regUser  = regUser;
-module.exports.userAction = userAction;
-module.exports.setAction = setAction;
-module.exports.setName = setName;
-module.exports.setContact = setContact;
+
+
+module.exports.haveUser      = haveUser;
+module.exports.regUser       = regUser;
+module.exports.userAction    = userAction;
+module.exports.setAction     = setAction;
+module.exports.setName       = setName;
+module.exports.setContact    = setContact;
+module.exports.getInfo       = getInfo;

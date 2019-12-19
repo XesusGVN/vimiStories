@@ -33,12 +33,23 @@ var errorLog = function(text,data){
 
 }
 
+var regLog = function(data){
+    let time = func.getDateTime();
+    let txt =  "Пользователь " + data.NAME + "(" + data.TG_ID + ")" + " Зарегистрирован";
+
+    let fileContent = fs.readFileSync('./logs/regLogs.txt', 'utf8');
+    fs.writeFileSync('./logs/regLogs.txt', fileContent + "\n"+ txt);
+
+    console.log('\x1b[42m\x1b[37m' + time + '\x1b[0m  \x1b[42m ' + '\x1b[30m' + txt + '\x1b[0m');
+}
+
 
 
 
 module.exports.log         = log;
 module.exports.doneLog     = doneLog;
 module.exports.errorLog    = errorLog;
+module.exports.regLog      = regLog;
 
 
 
